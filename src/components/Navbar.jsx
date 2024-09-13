@@ -29,7 +29,7 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
+      } w-full flex items-center fixed top-0 z-20 ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
@@ -42,11 +42,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-20 h-20 object-contain' />
-          {/* <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Troy &nbsp;
-            <span className='sm:block hidden'> | Legacy</span>
-          </p> */}
+          <img src={logo} alt='logo' width={200} height={200} className=' object-contain' />
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>

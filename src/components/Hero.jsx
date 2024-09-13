@@ -19,8 +19,10 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Troy</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop systems, user <br className='sm:block hidden' />
-            interfaces, mobile and web applications
+            I develop systems, <br className='sm:block hidden' /> 
+            user interfaces, <br className='sm:block hidden' />
+            mobile and web <br className='sm:block hidden' />
+            applications.
           </p>
         </div>
       </div>
